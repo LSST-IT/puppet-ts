@@ -13,13 +13,13 @@
 
 ## Description
 
-Puppet module for installing and configuring the LSST TS CSC.
+Puppet module for installing and configuring the LSST Telescope & Site (TS) CSC(s).
 
 ## Setup
 
 ### What ts affects
 
-The module installs prerequisites, installs the TS software, and configures firewall settings.
+The module installs prerequisites, installs the Telescope & Site software, and configures firewall settings.
 
 ### Setup Requirements
 

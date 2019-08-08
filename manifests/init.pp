@@ -7,6 +7,5 @@
 class ts {
 
   include ::sal
-  include atheaderservice::firewall
 
 }
