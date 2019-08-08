@@ -1,10 +1,10 @@
-# Install and configure the ATArchiver CSC
+# Install and configure the TS CSC
 #
-# @summary Install and configure the ATArchiver CSC
+# @summary Install and configure the TS CSC
 #
 # @example
-#   include atarchiver
-class atarchiver {
+#   include ts
+class ts {
 
   include ::sal
   include atheaderservice::firewall

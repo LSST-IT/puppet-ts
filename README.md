@@ -1,25 +1,25 @@
 
-# puppet-atarchiver
+# puppet-ts
 
 #### Table of Contents
 
 1. [Description](#description)
-2. [Setup - The basics of getting started with atarchiver](#setup)
-    * [What atarchiver affects](#what-atarchiver-affects)
+2. [Setup - The basics of getting started with ts](#setup)
+    * [What ts affects](#what-ts-affects)
     * [Setup requirements](#setup-requirements)
-    * [Beginning with atarchiver](#beginning-with-atarchiver)
+    * [Beginning with ts](#beginning-with-ts)
 3. [Usage - Configuration options and additional functionality](#usage)
 4. [Limitations - OS compatibility, etc.](#limitations)
 
 ## Description
 
-Puppet module for installing and configuring the LSST ATArchiver CSC.
+Puppet module for installing and configuring the LSST TS CSC.
 
 ## Setup
 
-### What atarchiver affects
+### What ts affects
 
-The module installs prerequisites, installs the ATArchiver software, and configures firewall settings.
+The module installs prerequisites, installs the TS software, and configures firewall settings.
 
 ### Setup Requirements
 
@@ -30,19 +30,19 @@ This module requires the following puppet modules to be installed:
   * https://forge.puppet.com/puppetlabs/firewall
   * https://forge.puppet.com/puppetlabs/stdlib
 
-### Beginning with atarchiver
+### Beginning with ts
 
 ## Usage
 
-To load the ATArchiver puppet module, declare this class in your manifest with `include atarchiver`.
+To load the TS puppet module, declare this class in your manifest with `include ts`.
 
 ## Reference
 
-The following parameters let you extend ATArchiver options beyond the default:
+The following parameters let you extend TS options beyond the default:
 
   * _tbd_
 
 ## Limitations
 
-This ATArchiver module only supports RHEL/CentOS servers that are configured to use `iptables`.
+This TS module only supports RHEL/CentOS servers that are configured to use `iptables`.
 
